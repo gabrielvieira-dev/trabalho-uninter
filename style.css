@@ -1,0 +1,155 @@
+/* CSS Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:60px auto;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    max-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.titulo {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 500;
+    color: #61DAFB;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+    font-size: 18px;
+    width: 60%;
+    line-height: 25px;
+    
+}
+
+header button {
+    background-color: #E7EBE9;
+    color: #4878A0;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 22px;
+    border-radius: 10px;
+}
+
+header button:hover {
+    background-color: #d6dad8;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #00BFFF;
+    font-weight: bold;
+    text-align: center;
+}
+/* main */
+.conteudo h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 40px auto 20px auto;
+}
+
+.conteudo ul {
+   list-style: none;
+}
+
+.conteudo ul li {
+    margin-block: 10px;
+
+}
+
+.conteudo ul li::before {
+    content: "";      
+    display: inline-block;
+    width: 8px;    
+    height: 8px;
+    background-color: #E7EBE9;
+    margin-right:16px;
+    border-radius: 16px;
+}
+
+.img-calistenia {
+    width: 100%;
+    margin-top: 40px;
+    height: 274px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+table tr {
+    border-bottom: 1px solid #444;
+}
+table tr:nth-child(even) {
+    background-color: #1f1f1f;
+}
+
+
+table td {
+    padding: 16px;
+    text-align: left;
+    vertical-align: middle;
+    color: #E0E0E0;
+}
+
+
+table .imagem {
+    width: 200px;
+    object-position: center;
+    border-radius: 10px;
+}
+/* footer */
+footer {
+    margin-top: 40px;
+
+}
+
+footer h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #61AEEE;
+}
+
+footer a:hover {
+     color: #7cc3ff;
+}
