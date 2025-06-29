@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Vieira</title>
+<link rel="stylesheet" href="style.css">
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1 class="titulo">Gabriel Vieira</h1>
+<p>
+Olá, seja bem-vindo(a) ao meu site!
+Me chamo Gabriel, tenho 21 anos e sou de Itapetininga (SP). Desde criança, sempre fui apaixonado por tecnologia.
+Em 2020, através da minha escola, conheci uma plataforma de cursos gratuitos na área de TI. Fiz um dos cursos e, desde então, me interessei cada vez mais por esse universo.
+Além de estudar, também gosto muito de praticar esportes, especialmente luta e calistenia.
+</p>
+<button class="btn">Clique Para ver uma mensagem!</button>
+<p id="mensagem"></p>
+</header>
+
+<main class="conteudo">
+<section class="hobbies">
+<h2>Hobbies</h2>
+<ul>
+<li>Futebol</li>
+<li>Calistenia</li>
+<li>Jogar Videogame</li>
+</ul>
+<img class="img-calistenia" src="./imagens/calistenia.png" alt="Homem treinando calistenia" title="A bandeira humana é um dos exercícios impressionantes da calistenia
+Imagem: iStock">
+</section>
+<main>
+<h2>Paises que eu gostaria de visitar</h2>
+<table class="Paises">
+<tr>
+<td>Canada</td>
+<td><img class="imagem" src="./imagens/canada1.jpg"  alt="Imagem de uma montanha do Canadá" title="Cenário da montanha - Canadá"></td>
+</tr>
+<tr>
+<td>Japão</td>
+<td><img class="imagem" src="./imagens/Japao1.jpg"  alt="Imagem do templo do pagode do Japão" title="Templo do pagode - Japão"></td>
+</tr>
+<tr>
+<td>França</td>
+<td><img class="imagem" src="./imagens/franca1.jpg"  alt="Imagem da torre Eifel da França" title="Torre Eifel - França"></td>
+</tr>
+</table>
+</main>
+<footer>
+<h3>Site útil</h3>
+<a class="link" href="https://www.frontendmentor.io/" target="_blank" title="Site de desafios front-end">https://www.frontendmentor.io</a>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
